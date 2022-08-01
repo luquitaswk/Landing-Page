@@ -101,6 +101,11 @@ a:hover {
 
 }
 
+#btn1{
+    background: #FFD000;
+    border-color: #FFD000;
+}
+
 .container2 {
     width: 100%;
     height: 100%;
