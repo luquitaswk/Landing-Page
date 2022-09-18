@@ -7,42 +7,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
 </head>
 
 <body>
     <header class="header">
-        <img class="logo" src="./src/img/logo.png" alt="logo">
+
         <nav class="navbar">
-            <ul>
+            <img class="logo" src="./src/img/logo.png" alt="logo">
+            <label for="menu" class="nav-label">
+                <img src="src/img/menu.svg" class="nav-img">
+            </label>
+            <input type="checkbox" id="menu" class="nav-input">
+            <ul class="nav-menu">
                 <li><a href="#">INICIO</a></li>
-                <li><a href="#">SERVICIOS</a></li>
-                <li><a href="#">PRODUCTOS</a></li>
+                <li><a href="#servicios">SERVICIOS</a></li>
+                <li><a href="#productos">PRODUCTOS</a></li>
                 <li><a href="#">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        <div class="container1">
+            <section class="section1">
+                <h1>VIDEOVIGILANCIA LAS 24HRS</h1>
+                <h4>Protegé tu hogar o negocio con nuestro Sistema de video vigilancia online las 24hrs.</h4>
+                <div class="btnshead"><button class="btns" id="btn1">Contratar</button>
+                    <button class="btns">más info</button>
+                </div>
+            </section>
 
-    <div class="container1">
-        <section class="primer-section">
-            <h1>VIDEOVIGILANCIA LAS 24HRS</h1>
-            <h4>Protegé tu hogar o negocio con nuestro Sistema de video vigilancia online las 24hrs.</h4>
-            <button class="botones" id="btn1">Contratar</button>
-            <button class="botones">más info</button>
+        </div>
+
+        <div class="container2">
+            <section class="section2" id="servicios">
+                <h1><span class="span1">ESTAMOS COMPROMETIDOS</span></h1>
+                <h4>Brindamos servicios de vigilancia integrando sistemas inteligentes de seguridad electrónica con alta
+                    tecnología para ejercer control y monitoreo en ambientes cerrados, abiertos y remotos de difícil
+                    acceso. </h4>
+            </section>
+        </div>
+
+
+        <div class="container2-5">
+            <section class="iconos">
+                <div class="icon">
+                    <img src="src/img/icon1.png" alt="Alarma">
+                    <p>Control y monitoreo que aseguran mayor eficacia a la hora de detectar intrusos en la
+                        propiedad, evitando falsas alarmas.</p>
+                </div>
+                <div class="icon">
+                    <img src="src/img/icon2.png" alt="App mobile">
+                    <p>Te brindamos una App, la cual te va permitir controlar tus dispositivos desde cualquier lugar.
+                        Mirá lo que
+                        sucede en tu hogar, activá y desactivá tus alarmas, y recibí notificaciones de eventos.</p>
+                </div>
+
+                <div class="icon" id="icon-3">
+                    <img src="src/img/icon3.png" alt="Personal Capacitado">
+                    <p>Personal Técnico Propio, capacitado en sistemas de seguridad. Te brinda la tranquilidad
+                        del
+                        profesionalismo en cada instalación y mantenimiento con la confiabilidad del personal que
+                        ingresa a tu hogar.</p>
+                </div>
+            </section>
+        </div>
+
+
+        <div class="container3">
+
+            <section class="section3">
+
+                <h1><span class="sh1">
+                        Usa la app desde tu celular y tene una gestión simple, fácil e intuitiva
+                    </span></h1>
+                <h2>Tener el control de la seguridad de tu casa es posible y podrás:
+                </h2>
+                <h4>
+                    <ul>
+                        <li>Comprobar el estado de tu alarma.</li>
+                        <li>Conectar y desconectar tu alarma.</li>
+                        <li>Monitorea en tiempo real lo que está sucediendo en tu casa.</li>
+                        <li>Solicitar imágenes de los videodetectores.</li>
+                    </ul>
+                </h4>
+
+            </section>
+        </div>
+
+        <div class="container4">
+            <section class="section4" id="productos">
+
+
+                <h1>NUESTROS PRODUCTOS </h1>
+
+
+                <div class="productos">
+                    <div class="producto"><img src="src/img/interiores.png" alt="">
+                        <div class="overlay">
+                            <h4>CAMARAS PARA INTERIORES</h4>
+                            <p>Ideal para colocar dentro de tu Casa u Oficina.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="producto"><img src="src/img/exteriores.png" alt="">
+                        <div class="overlay">
+                            <h4>CAMARAS APTAS PARA EXTERIORES</h4>
+                            <p>Ideal para monitorear el perimetro pudiendo escuchar el sonido externo.</p>
+                        </div>
+                    </div>
+
+                    <div class="producto"><img src="src/img/commax.png" alt="">
+                        <div class="overlay">
+                            <h4>SISTEMAS DE INTERCOMUNICADORES</h4>
+                            <p>Comunicación en tiempo real con las personas que tocan timbre en tu unidad.</p>
+                        </div>
+                    </div>
+
+                    <div class="producto"><img src="src/img/hilookdvr.png" alt="">
+                        <div class="overlay">
+                            <h4>SISTEMA GESTION DVR</h4>
+                            <P>Mantene un sistema de gabración y monitoreo controlando todos tus dispositivos con tu
+                                DVR.
+                            </P>
+                        </div>
+                    </div>
+                </div>
+        </div>
         </section>
-
-    </div>
-
-    <div class="container2">
-        <section class="segundo-section">
-            <h1>ESTAMOS COMPROMETIDOS</h1>
-            <h4>Brindamos servicios de vigilancia integrando sistemas inteligentes de seguridad electrónica con alta
-                tecnología para ejercer control y monitoreo en ambientes cerrados, abiertos y remotos de difícil
-                acceso. </h4>
-        </section>
-    </div>
+        </div>
+    </main>
 </body>
 
 </html>
