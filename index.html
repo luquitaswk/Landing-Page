@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Landing Page</title>
+    <link rel="icon" type="image/x-icon" href="src/img/favicon.ico">
+    <title>SEGCAM - VIGILANCIA LAS 24HRS.</title>
 </head>
 
 <body>
@@ -25,7 +26,7 @@
                 <li><a href="#">INICIO</a></li>
                 <li><a href="#servicios">SERVICIOS</a></li>
                 <li><a href="#productos">PRODUCTOS</a></li>
-                <li><a href="#">CONTACTO</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
@@ -101,11 +102,9 @@
             <section class="section4" id="productos">
 
 
-                <h1>NUESTROS PRODUCTOS </h1>
-
-
+                <h1>NUESTROS PRODUCTOS</h1>
                 <div class="productos">
-                    <div class="producto"><img src="src/img/interiores.png" alt="">
+                    <div class="producto"><img class="pi" src="src/img/interiores.png" alt="">
                         <div class="overlay">
                             <h4>CAMARAS PARA INTERIORES</h4>
                             <p>Ideal para colocar dentro de tu Casa u Oficina.</p>
@@ -113,21 +112,22 @@
                     </div>
 
 
-                    <div class="producto"><img src="src/img/exteriores.png" alt="">
+                    <div class="producto">
+                        <img class="pi" src="src/img/exteriores.png" alt="">
                         <div class="overlay">
-                            <h4>CAMARAS APTAS PARA EXTERIORES</h4>
+                            <h4>CAMARAS PARA EXTERIORES</h4>
                             <p>Ideal para monitorear el perimetro pudiendo escuchar el sonido externo.</p>
                         </div>
                     </div>
 
-                    <div class="producto"><img src="src/img/commax.png" alt="">
+                    <div class="producto"><img class="pi" src="src/img/commax.png" alt="">
                         <div class="overlay">
                             <h4>SISTEMAS DE INTERCOMUNICADORES</h4>
                             <p>Comunicación en tiempo real con las personas que tocan timbre en tu unidad.</p>
                         </div>
                     </div>
 
-                    <div class="producto"><img src="src/img/hilookdvr.png" alt="">
+                    <div class="producto"><img class="pi" src="src/img/hilookdvr.png" alt="">
                         <div class="overlay">
                             <h4>SISTEMA GESTION DVR</h4>
                             <P>Mantene un sistema de gabración y monitoreo controlando todos tus dispositivos con tu
@@ -137,8 +137,98 @@
                     </div>
                 </div>
         </div>
+
         </section>
         </div>
+
+
+        <div class="container5">
+            <section class="section5">
+
+                <h3>TRABAJAMOS CON LAS SIGUIENTES MARCAS</h3>
+
+                <div class="marcas">
+                    <img class="marcas-large" src="src/img/marcas-large.png" alt="">
+                    <div class="ezviz"></div>
+                    <div class="commax"></div>
+                    <div class="hikvision"></div>
+                    <div class="hilook"></div>
+                </div>
+
+            </section>
+
+        </div>
+
+        <div class="container6">
+            <section id="contacto" class="section6">
+                <div class="diremapaform">
+                    <div class="sitemap">
+                        <img class="logomini" src="src/img/logo-mini.png" alt="">
+
+                        <H1>REDES SOCIALES</H1>
+                        <div class="rrss">
+                            <img src="src/img/facebook-logo.png" alt="facebook">
+                            <img src="src/img/instagram-logo.png" alt="instagram">
+                            <img src="src/img/linkedin-logo.png" alt="linkedin">
+                        </div>
+
+
+                        <H1>MAPA DEL SITIO</H1>
+                        <div class="rorropirrorro">
+                            <div>
+                                <ul class="r1">
+                                    <li><a href="">SERVICIOS</a></li>
+                                    <li><a href="">PRODUCTOS</a></li>
+                                    <li><a href="">CONTACTO</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="r2">
+                                    </a>
+                                    <li><a href="">CONDICIONES DE GARANTÍA</a></li>
+                                    <li><a href="">POLÍTICA DE PRIVACIDAD</a></li>
+                                    <li><a href="">TERMINOS DEL SERVICIO</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="btnarrepentimiento">
+                            <a href="https://t.ly/6IAC">BOTÓN DE ARREPENTIMIENTO</a>
+                        </div>
+                    </div>
+
+                    <div class="mapa">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3169444958226!2d-58.373388584201635!3d-34.59614616460558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3356b3ed21ee7%3A0xbd6f6786a7efaea1!2sWeWork%20Espacios%20de%20Oficinas%20%26%20Coworking%20Ing.%20Enrique%20Butty!5e0!3m2!1ses-419!2sar!4v1663820282009!5m2!1ses-419!2sar"
+                            width="456" height="375" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <img src="src/img/ubicacion.png" alt="">
+                    </div>
+
+
+                    <div class="formulario">
+                        <form class="contact-form">
+                            <h2>PONETE EN CONTACTO CON NOSOTROS</h2>
+                            <input class="inputform" type="text" name="nombre" placeholder="Nombre y Apellido">
+                            <input class="inputform" type="email" name="email" placeholder="Email">
+                            <input class="inputform" type="tel" name="telefono" placeholder="(Código de área) + Número">
+                            <textarea class="inputform" name="comentario" placeholder="Dejanos tu mensaje!"></textarea>
+                            </p>
+                            <p><input type="checkbox" name="" id=""> He leído y acepto la <a href=""><b>Política de
+                                        Privacidad</b></a></p>
+                            <p><input type="checkbox" id=""> Deseo que se comuniquen por teléfono</p>
+                            <div class="btnbase"><input class="btnform" type="button" value="Enviar" class="entrar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <footer>
+            <p>Hecho con &#128147; en <b>NUCBA</b> por <b>Lucas Guerrero</b></p>
+        </footer>
+
     </main>
 </body>
 
